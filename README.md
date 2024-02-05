@@ -26,9 +26,9 @@
     pip install gymnasium
     ```
 3. It is strongly advised that you learn how to use virtual environment for Python. It creates an isolated environment from the system Python or other Python releases you have installed system-wide. It helps you manage Python packages in a clean fashion and allow you to only install necessary packages for particular projects. An exemplary, lightweight virtual environment module is `venv` [(link)](https://docs.python.org/3/library/venv.html). Your python distribution is likely to include it by default. If not, for example on Ubuntu, you can install it by
-```
-sudo apt-get install python3-venv
-```
+    ```
+    sudo apt-get install python3-venv
+    ```
 
 ## Assignment
 In this assignment, you will implement planning (dynamic programming)  algorithms on the `FrozenLake` environment from Gymnasium [(Link)](https://gymnasium.farama.org/environments/toy_text/frozen_lake/).
