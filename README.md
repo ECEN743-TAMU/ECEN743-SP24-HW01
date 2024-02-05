@@ -5,7 +5,7 @@
 1. You have to submit a PDF report and your code to Canvas.
 2. Put all your files (PDF report and code) into a **single compressed folder** named `Lastname_Firstname_A1.zip`.
 3. Your PDF report should include answers and plots to all the questions. This can be achieved through:
-    * If you proficient with `matplotlib` and `LaTex`, you can export all your plots and write a report in `LaTex` (Microsoft Word is also fine). The university provides free premium Overleaf service to students.
+    * If you are proficient with `matplotlib` and `LaTex`, you can export all your plots and write a report in `LaTex` (Microsoft Word is also fine). The university provides free premium Overleaf service to students.
     * You can learn about `nbconvert` which is a python package that helps convert jupyter notebook to other format (including PDF). Here is the [**link**](https://github.com/jupyter/nbconvert).
     * As a last resort, you can also save the Jupyter Notebook as an `html` file. Open it using your favorite browser and print to PDF.
 4. This homework is self-containted in one Jupyter notebook. In your `zip`, we expect only your PDF report and **one** Jupyter notebook.
