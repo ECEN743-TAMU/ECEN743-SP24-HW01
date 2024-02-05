@@ -4,22 +4,27 @@
 
 1. You have to submit a PDF report and your code to Canvas.
 2. Put all your files (PDF report and code) into a **single compressed folder** named `Lastname_Firstname_A1.zip`.
-3. Your PDF report should include answers and plots to all the questions. This can be achieved through:
-    * If you proficient with `matplotlib` and `LaTex`, you can export all your plots and write a report in `LaTex` (Microsoft Word is also fine). The university provides free premium Overleaf service to students.
-    * You can learn about `nbconvert` which is a python package that helps convert jupyter notebook to other format (including PDF). Here is the [**link**](https://github.com/jupyter/nbconvert).
-    * As a last resort, you can also save the Jupyter Notebook as an `html` file. Open it using your favorite browser and print to PDF.
+3. Your PDF report should include answers and plots to all the questions. We strongly encourage you to use `nbconvert` which is a python package that helps convert jupyter notebook to other format (including PDF). Here is the [**link**](https://github.com/jupyter/nbconvert). To use `nbconvert`, you also need to install [Pandoc](https://pandoc.org/)(1.12.1 or later). On Linux, you can run
+    ```
+    sudo apt-get install pandoc
+    ```
+    For other platforms, refer to [Pandoc website](https://pandoc.org/installing.html). Since we are converting the notebook to PDF, you also need LaTeX. On Debian or Ubuntu, you can install LaTeX (and XeTeX rendering engine) by running
+    ```
+    sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
+    ```
+    For all other platforms, refer to `nbconvert` [official installation page](https://nbconvert.readthedocs.io/en/latest/install.html).
 4. This homework is self-containted in one Jupyter notebook. In your `zip`, we expect only your PDF report and **one** Jupyter notebook.
 
 ## Installation Intructions
 
 1. If you wish to complete this assignment locally (not on Google Colab), you need to install Jupyter Notebook. You can do  
-```
-pip install jupyter notebook
-```
+    ```
+    pip install jupyter notebook
+    ```
 2. In this assignment, you will play around with the famous `FrozenLake` environment. Please install Gymnasium (you can read more about Gymnasium [here](https://gymnasium.farama.org/)).
-```
-pip install gymnasium
-```
+    ```
+    pip install gymnasium
+    ```
 3. It is strongly advised that you learn how to use virtual environment for Python. It creates an isolated environment from the system Python or other Python releases you have installed system-wide. It helps you manage Python packages in a clean fashion and allow you to only install necessary packages for particular projects. An exemplary, lightweight virtual environment module is `venv` [(link)](https://docs.python.org/3/library/venv.html). Your python distribution is likely to include it by default. If not, for example on Ubuntu, you can install it by
 ```
 sudo apt-get install python3-venv
