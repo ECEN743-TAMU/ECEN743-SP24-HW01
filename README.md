@@ -2,9 +2,9 @@
 
 ## Overview
 
-1. You have to submit a PDF report and your code to Canvas.
-2. Put all your files (PDF report and code) into a **single compressed folder** named `Lastname_Firstname_A1.zip`.
-3. Your PDF report should include answers and plots to all the questions. We strongly encourage you to use `nbconvert` which is a python package that helps convert jupyter notebook to other format (including PDF). Here is the [**link**](https://github.com/jupyter/nbconvert). To use `nbconvert`, you also need to install [Pandoc](https://pandoc.org/)(1.12.1 or later). On Linux, you can run
+1. You have to submit a report in `HTML` and your code to Canvas.
+2. Put all your files (`HTML` report and code) into a **single compressed folder** named `Lastname_Firstname_A1.zip`.
+<!-- 3. Your PDF report should include answers and plots to all the questions. We strongly encourage you to use `nbconvert` which is a python package that helps convert jupyter notebook to other format (including PDF). Here is the [**link**](https://github.com/jupyter/nbconvert). To use `nbconvert`, you also need to install [Pandoc](https://pandoc.org/)(1.12.1 or later). On Linux, you can run
     ```
     sudo apt-get install pandoc
     ```
@@ -12,8 +12,13 @@
     ```
     sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
     ```
-    For all other platforms, refer to `nbconvert` [official installation page](https://nbconvert.readthedocs.io/en/latest/install.html).
-4. This homework is self-containted in one Jupyter notebook. In your `zip`, we expect only your PDF report and **one** Jupyter notebook.
+    For all other platforms, refer to `nbconvert` [official installation page](https://nbconvert.readthedocs.io/en/latest/install.html). -->
+3. If you are using Jupyter Notebook, you can export it in `HTML` by going through the top toolbar:
+    ```
+    "File -> Save and Export Notebook As... -> HTML"
+    ```
+    If you are using Google Colab, you might need to do some extra steps to product an `HTML` report. Please Google for "how to convert ipynb notebook to HTML in Google Colab?".
+4. This homework is self-containted in one Jupyter notebook. In your `zip`, we expect only your `HTML` report and **one** Jupyter notebook.
 
 ## Installation Intructions
 
