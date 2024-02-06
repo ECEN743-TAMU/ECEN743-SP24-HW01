@@ -17,7 +17,7 @@
     ```
     "File -> Save and Export Notebook As... -> HTML"
     ```
-    If you are using Google Colab, you might need to do some extra steps to product an `HTML` report. Please Google for "how to convert ipynb notebook to HTML in Google Colab?".
+    If you are using Google Colab, you might need to do some extra steps to produce an `HTML` report. Please Google for "how to convert ipynb notebook to HTML in Google Colab?".
 4. This homework is self-containted in one Jupyter notebook. In your `zip`, we expect only your `HTML` report and **one** Jupyter notebook.
 
 ## Installation Intructions
